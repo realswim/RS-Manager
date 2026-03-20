@@ -8,6 +8,11 @@
         "distDir": "build"
       }
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/pool-app/$1"
+    }
   ]
 }
-
